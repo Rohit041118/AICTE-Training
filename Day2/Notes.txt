@@ -1,0 +1,27 @@
+Streamlit is a web based python framework.
+Instead of using html, css we can directly create the dashboards, shatbots, forms, tables, etc.
+What are the components which we use in streamlit?
+
+Text Components...
+title()
+header()
+subheader()
+write()
+
+Media Components...
+image()
+video()
+
+Layout Components...
+sidebar()
+columns()
+tabs()
+
+Input Components...
+text_input()
+number_input()
+selectbox()
+
+Command to run streamlit -
+>pip install streamlit
+>streamlit run filename.py
