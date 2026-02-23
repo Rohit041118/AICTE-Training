@@ -19,8 +19,13 @@ from django.contrib import admin
 from django.urls import path, include
 from rkapp import views
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('rkapp/', include('rkapp.urls')),
+    path('home/', views.home, name='home'),
+    path('about/', views.about, name='about'),
+    path('index/', views.index, name='index'),
+    path('teach/', views.teach, name='teach'),
 ]
+
+
+

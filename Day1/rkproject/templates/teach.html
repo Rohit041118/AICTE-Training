@@ -1,0 +1,22 @@
+<h1>{{ page_title }}</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for teacher in Teachers %}
+        <tr>
+            <td>{{ teacher.name }}</td>
+            <td>{{ teacher.age }}</td>
+            <td>{{ teacher.email }}</td>
+            <td>{{ teacher.subject }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

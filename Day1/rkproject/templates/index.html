@@ -1,0 +1,9 @@
+<h1>This is index page...</h1>
+<h1>{{ page_title }}</h1>
+{{Students}}
+<ul>
+{% for student in Students %}
+    <li>{{ student.name }} - {{ student.age }} - {{ student.email }} - {{ student.role }}</li>
+    
+{% endfor %}
+</ul>
